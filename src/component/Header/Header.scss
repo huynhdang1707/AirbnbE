@@ -1,0 +1,74 @@
+.moDau{
+    padding: 22px 0px 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.choThue, .ngonNgu{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    text-align: inherit;
+    padding: 12px;
+    font-weight: 600;
+    a{
+        text-decoration: none;
+    }
+    &:hover{
+        transition: color 250ms ease;
+        border-radius: 50px;
+        background-color: #f7f7f7;
+    }
+}
+
+.danhMuc{  
+    padding: 10px;
+    background: transparent;
+    margin: 0;
+    text-align: inherit;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 21px;
+    transition: box-shadow 0.2s ease;
+    &:hover{
+        box-shadow:0 2px 4px rgba(0,0,0,0.18);
+    } 
+    i{
+        width: 16px;
+        height: 16px;
+        color: #717171;
+    }
+   img{
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+    }
+}
+
+#offcanvasNavbarDropdown-expand-lg:after {
+    content: none;
+}
+
+@media only screen and (max-width:1024px) {
+    .nav-link{
+        margin: 10px 0;
+    }
+}
+  
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #717171;
+    width: auto;
+}
+
+.item.dropdown-item{
+    font-size: 14px;
+    width: auto;
+    &:active{
+        background-color: #717171;
+    }
+}
+
+.title{
+    font-size: 15px;
+    font-weight: 600;
+}
