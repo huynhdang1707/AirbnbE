@@ -10,6 +10,7 @@ import { bookingUpdated, updateBooking } from "../../slices/updateBookingSlice";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
+
 const schema = yup.object({
   maPhong: yup.number(),
   ngayDen: yup.string().required("(*)Ngày đến không được để trống"),

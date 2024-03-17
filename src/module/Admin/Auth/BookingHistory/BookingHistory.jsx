@@ -1,13 +1,13 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import swal from "sweetalert";
-import { getBookingList } from "../../slices/bookingListSlice";
-import { apiDeleteBooking } from "../../apis/bookingManagementAPI";
-import { bookingUpdated } from "../../slices/updateBookingSlice";
+import { getBookingList } from "../../../../slices/bookingListSlice";
+import { apiDeleteBooking } from "../../../../apis/bookingManagementAPI";
+import { bookingUpdated } from "../../../../slices/updateBookingSlice";
 import "./BookingHistory.scss";
 import BookingForm from "../BookingForm/BookingForm";
-import { apiGetBookingListBookingId } from "../../apis/bookingManagementAPI";
-import { apiGetBookingListUserId } from "../../apis/bookingManagementAPI";
+import { apiGetBookingListBookingId } from "../../../../apis/bookingManagementAPI";
+import { apiGetBookingListUserId } from "../../../../apis/bookingManagementAPI";
 import { Container } from "react-bootstrap";
 
 function BookingHistory() {

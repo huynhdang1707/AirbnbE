@@ -15,28 +15,28 @@ const UserInfoLayout = lazy(() =>
   import("./layouts/UserInfoLayout/UserInfoLayout")
 );
 const BookingHistory = lazy(() =>
-  import("./modules/BookingHistory/BookingHistory.jsx")
+  import("./module/Admin/Auth/BookingHistory/BookingHistory.jsx")
 );
 const AdminRoomList = lazy(() =>
-  import("./modules/Admin/AdminRoomList/AdminRoomList.jsx")
+  import("./module/Admin/AdminRoomList/AdminRoomList.jsx")
 );
 const AdminAddRoom = lazy(() =>
-  import("./modules/Admin/AdminAddRoom/AdminAddRoom.jsx")
+  import("./module/Admin/AdminAddRoom/AdminAddRoom.jsx")
 );
 const AdminDescList = lazy(() =>
   import("./modules/Admin/AdminDescList/AdminDescList.jsx")
 );
 const AdminAddDesc = lazy(() =>
-  import("./modules/Admin/AdminAddDesc/AdminAddDesc.jsx")
+  import("./module/Admin/AdminAddDesc/AdminAddDesc.jsx")
 );
 const AdminUserList = lazy(() =>
-  import("./modules/Admin/AdminUserList/AdminUserList.jsx")
+  import("./module/Admin/AdminUserList/AdminUserList.jsx")
 );
 const AdminAddUser = lazy(() =>
-  import("./modules/Admin/AdminAddUser/AdminAddUser.jsx")
+  import("./module/Admin/AdminAddUser/AdminAddUser.jsx")
 );
 const AdminCommentList = lazy(() =>
-  import("./modules/Admin/AdminCommentList/AdminCommentList.jsx")
+  import("./module/Admin/AdminCommentList/AdminCommentList.jsx")
 );
 const BookingLayout = lazy(() =>
   import("./layouts/BookingLayout/BookingLayout.jsx")
