@@ -1,0 +1,46 @@
+.tieuDeBL{
+    color: #1c1e21;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    border-bottom: 1px solid #c7c8c9;
+  }
+  
+  @media (max-width: 375px) {
+    .table-responsive {
+      overflow-x: auto;
+    }
+  
+    .table {
+      width: 100%;
+      white-space: nowrap;
+    }
+  
+    .table th,
+    .table td {
+      white-space: normal;
+    }
+    .tablecmt th:nth-child(6),
+    .tablecmt td:nth-child(6) {
+      display: none;
+    }
+  
+  }
+  @media (max-width: 576px){
+    .tablecmt th:nth-child(5),
+    .tablecmt td:nth-child(5) {
+      display: none;
+    }
+    .tablecmt th:nth-child(7),
+    .tablecmt td:nth-child(7) {
+      display: none;
+    }
+  }
+  @media (max-width: 992px){
+    .tablecmt th:nth-child(1),
+    .tablecmt td:nth-child(1) {
+      display: none;
+    }
+  }
+  

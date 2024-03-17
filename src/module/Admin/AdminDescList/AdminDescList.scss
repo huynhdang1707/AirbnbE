@@ -1,0 +1,111 @@
+.tieuDeVT {
+    color: #1c1e21;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    border-bottom: 1px solid #c7c8c9;
+  }
+  .taiSuDung {
+    border: none;
+    margin: 0 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+  
+  .hinhAnh {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .pagination2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    .rc-pagination-prev {
+      &::marker {
+        content: none;
+      }
+      .rc-pagination-item-link {
+        @extend .taiSuDung;
+        &::after {
+          content: "<";
+        }
+      }
+    }
+    .rc-pagination-next {
+      &::marker {
+        content: none;
+      }
+      .rc-pagination-item-link {
+        @extend .taiSuDung;
+        &::after {
+          content: ">";
+        }
+      }
+    }
+    .rc-pagination-jump-next,
+    .rc-pagination-jump-prev {
+      .rc-pagination-item-link {
+        @extend .taiSuDung;
+        &::after {
+          content: "...";
+        }
+      }
+    }
+    .rc-pagination-item {
+      @extend .taiSuDung;
+    }
+    .rc-pagination-item-active {
+      font-weight: 600;
+    }
+  }
+  @media (max-width: 375px) {
+    .w-100 {
+      width: 100%;
+    }
+  }
+  @media (max-width: 375px) {
+    .table-responsive {
+      overflow-x: auto;
+    }
+  
+    .table {
+      width: 100%;
+      white-space: nowrap;
+    }
+  
+    .table th,
+    .table td {
+      white-space: normal;
+    }
+    .tabledesc th:nth-child(1),
+    .tabledesc td:nth-child(1) {
+      display: none;
+    }
+  
+    .tabledesc th:nth-child(5),
+    .tabledesc td:nth-child(5) {
+      display: none;
+    }
+  }
+  @media (max-width: 576px) {
+    .tabledesc th:nth-child(6),
+    .tabledesc td:nth-child(6) {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .tabledesc th:nth-child(1),
+    .tabledesc td:nth-child(1) {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+@import "../../../../index.scss";
+
+.template {
+  min-height: calc(98vh - 48px);
+}
+
+
+.form_container{
+  width: 30%;
+}
+
+@media screen and (max-width:1000px){
+  .form_container{
+    width: 45%;
+  }
+}
+
+@media screen and (max-width:700px){
+  .form_container{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:500px){
+  .form_container{
+    width: 80%;
+  }
+}
+
+.datePicker{
+  width: 100%;
+}
+
+.nut{
+  @extend .btnPrimary;
+  transition: box-shadow 0.2s ease;
+
+}

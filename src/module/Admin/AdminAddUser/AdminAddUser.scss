@@ -1,0 +1,26 @@
+.tieuDeUS{
+    color: #1c1e21;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    border-bottom: 1px solid #c7c8c9;
+  }
+  .ngaySinh{
+    font-weight: 600;
+  }
+  
+  .taoMoi{
+    border-bottom: 1px solid #c7c8c9;
+    padding: 20px 0;
+    .add{
+      border: 1px solid green;
+      padding: 10px;
+      border-radius: 100px;
+      background-color: white;
+      color: green;
+      &:hover{
+        box-shadow: 0 0 10px 0 green;
+        transition: 0.3s;
+      }
+    }
+  }

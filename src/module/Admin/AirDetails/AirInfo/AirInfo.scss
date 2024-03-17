@@ -1,0 +1,69 @@
+.chiTiet{
+    border-bottom: 1px solid #ebebeb;
+    .phong{
+        font-size: 16px;
+    }
+    .info{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .moTa{
+        line-height: 24px;  
+    }
+    .gioiThieu{
+        font-size: 22px;
+    }
+    .suDung{
+        display: flex;
+        font-size: 18px;
+    }
+    .gach-ngang {
+        text-decoration: line-through;
+    }
+    .moRong{
+        text-decoration: underline;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+
+
+.datPhong{
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+    .tongQuat{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        .giaTien{
+            font-size: 22px;
+            font-weight: 600;
+        }
+    }
+    .datCho{
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 24px;
+        padding-right: 24px;
+        transition: box-shadow 0.2s cubic-bezier(0.2,0,0,1),transform 0.1s cubic-bezier(0.2,0,0,1);
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+
+.react-calendar__month-view__days__day--weekend {
+    color: #d10000 !important;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+    color: #757575 !important;
+}
+
+.react-calendar__tile{
+    font-weight: 400 !important;
+}
+

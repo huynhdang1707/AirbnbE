@@ -1,0 +1,38 @@
+.userComment {
+    position: relative;
+    margin-top: 50px;
+    .tieuDeNX {
+      margin-top: 40px;
+    }
+    .noiDung {
+      border-bottom: 1px solid #ebebeb;
+      position: relative;
+      .sendButton {
+        position: absolute;
+        right: 0rem;
+        bottom: 0.3rem;
+      }
+    }
+    .bi-star-fill,
+    .bi-star {
+      color: #d0011b;
+    }
+    .hinhAnh {
+      object-fit: cover;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: black;
+    }
+    .hinhAnh1 {
+      font-size: 30px;
+      border-radius: 50%;
+      color: #717171;
+    }
+    .userButton {
+      position: absolute;
+      right: 0.5rem;
+      top: 0.5rem;
+    }
+  }
+  
