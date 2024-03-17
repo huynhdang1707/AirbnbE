@@ -1,0 +1,58 @@
+.phongThue{
+    a{
+        text-decoration: none;
+    }    
+    .hienThi{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .hinhAnh{
+        width: 100%;
+        height: 272px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .tenPhong{
+        font-weight: 600;
+        font-size: 18px;
+        color: black;
+    }
+    .giaTien{
+        font-size: 16px;
+        color: black;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+}
+
+.page{
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .number.active {
+        font-weight: 600;
+      }
+}
+
+.search{
+    .chonQuocGia{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        padding: 10px 36px 10px 15px;
+    }
+    .chonTinhThanh{
+        border-radius: 0;
+        padding: 10px 36px 10px 15px;
+    }
+    .chonViTri{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding: 10px 36px 10px 15px;
+    }
+}
