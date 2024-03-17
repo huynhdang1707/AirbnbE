@@ -1,0 +1,17 @@
+@import '../../../../index.scss';
+
+.body{
+    height: calc(100vh - 80px - 359px);
+    display: flex;
+    align-items: center;
+    color: $text-dark-color;
+    .title{
+        font-size: 7rem;
+        font-weight: 600;
+        color: $text-secondary-color;
+        opacity: 0.7;
+    }
+    .btn{
+        @extend .btnPrimary;
+    }
+}

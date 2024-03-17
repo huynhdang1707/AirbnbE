@@ -1,0 +1,49 @@
+.danhSachPhong{
+    color: #1c1e21;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c7c8c9;
+  }
+  @media (max-width: 375px) {
+    .table-responsive {
+      overflow-x: auto;
+    }
+  
+    .table {
+      width: 100%;
+      white-space: nowrap;
+    }
+  
+    .table th,
+    .table td {
+      white-space: normal;
+    }
+    // .tableuserbooking th:nth-child(5),
+    // .tableuserbooking td:nth-child(5) {
+    //   display: none;
+    // }
+    
+    // .tableuserbooking th:nth-child(6),
+    // .tableuserbooking td:nth-child(6) {
+    //   display: none;
+    // }
+  
+  }
+  @media (max-width: 576px){
+    .tableuserbooking th:nth-child(2),
+    .tableuserbooking td:nth-child(2) {
+      display: none;
+    }
+    .tableuserbooking th:nth-child(5),
+    .tableuserbooking td:nth-child(5) {
+      display: none;
+    }
+  }
+  @media (max-width: 992px){
+    .tableuserbooking th:nth-child(1),
+    .tableuserbooking td:nth-child(1) {
+      display: none;
+    }
+  }
