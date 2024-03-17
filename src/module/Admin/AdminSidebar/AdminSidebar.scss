@@ -1,0 +1,31 @@
+.sidebar {
+    width: 100%;
+  }
+  
+  .list-group a:hover {
+    background-color: #717171;
+  }
+  
+  .danhSach {
+    cursor: pointer;
+    list-style: none;
+  }
+  
+  .list-group-item {
+    border-left: none;
+    border-right: none;
+    padding: 0px;
+    &:first-child {
+      border-left: none;
+      border-right: none;
+      padding: 0px;
+      &:first-child{
+          border-left: none;
+          border-right: none;
+          padding: 0px;
+      }
+  } }
+  
+  .dropdown-item:hover, .dropdown-item:focus {
+    width: auto;
+  }

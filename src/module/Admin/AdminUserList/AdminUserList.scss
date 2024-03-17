@@ -1,0 +1,114 @@
+.tieuDeDS {
+    color: #1c1e21;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    border-bottom: 1px solid #c7c8c9;
+  }
+  .taiSuDung {
+    border: none;
+    margin: 0 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+  
+  .hinhAnh {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .pagination1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    .rc-pagination-prev {
+      &::marker {
+        content: none;
+      }
+      .rc-pagination-item-link {
+        @extend .taiSuDung;
+        &::after {
+          content: "<";
+        }
+      }
+    }
+    .rc-pagination-next {
+      &::marker {
+        content: none;
+      }
+      .rc-pagination-item-link {
+        @extend .taiSuDung;
+        &::after {
+          content: ">";
+        }
+      }
+    }
+    .rc-pagination-jump-next,
+    .rc-pagination-jump-prev {
+      .rc-pagination-item-link {
+        @extend .taiSuDung;
+        &::after {
+          content: "...";
+        }
+      }
+    }
+    .rc-pagination-item {
+      @extend .taiSuDung;
+    }
+    .rc-pagination-item-active {
+      font-weight: 600;
+    }
+  }
+  @media (max-width: 375px) {
+    .table-responsive {
+      overflow-x: auto;
+    }
+  
+    .table {
+      width: 100%;
+      white-space: nowrap;
+    }
+  
+    .table th,
+    .table td {
+      white-space: normal;
+    }
+    .tableuser th:nth-child(1),
+    .tableuser td:nth-child(1) {
+      display: none;
+    }
+  }
+  @media (max-width: 576px) {
+    .tableuser th:nth-child(6),
+    .tableuser td:nth-child(6) {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .tableuser th:nth-child(5),
+    .tableuser td:nth-child(5) {
+      display: none;
+    }
+  }
+  @media (max-width: 992px) {
+    .tableuser th:nth-child(1),
+    .tableuser td:nth-child(1) {
+      display: none;
+    }
+    .tableuser th:nth-child(8),
+    .tableuser td:nth-child(8) {
+      display: none;
+    }
+    .tableuser th:nth-child(7),
+    .tableuser td:nth-child(7) {
+      display: none;
+    }
+  }
+  

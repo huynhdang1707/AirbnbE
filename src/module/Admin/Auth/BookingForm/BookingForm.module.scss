@@ -1,0 +1,17 @@
+@import "../../../../index.scss";
+
+.input {
+  margin-bottom: 10px;
+  span {
+    width: 10rem;
+  }
+}
+.cursor {
+  cursor: pointer;
+}
+.btnn {
+  @extend .btnPrimary;
+}
+.btn2 {
+  @extend .btnSecondary;
+}

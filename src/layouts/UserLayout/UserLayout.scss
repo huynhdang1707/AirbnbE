@@ -1,0 +1,17 @@
+.divvvvvvv1 {
+    display: block;
+  }
+  
+  .divvvvvvv2 {
+    display: none;
+  }
+  
+  @media (min-width: 1200px) {
+    .divvvvvvv1 {
+      display: none;
+    }
+  
+    .divvvvvvv2 {
+      display: block;
+    }
+  }
