@@ -1,4 +1,4 @@
-import axiosClient from "./AxiosClient";
+import axiosClient from "./axiosClient.js";
 
 export const apiPhongThue = async (id) => {
   const { data } = await axiosClient.get("/phong-thue", {
