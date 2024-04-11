@@ -1,4 +1,4 @@
-import axiosClient from "./AxiosClient";
+import axiosClient from "./axiosClient.js";
 
 //Lấy danh sách người dùng theo trang
 export const apiGetUserListPage = async (value) => {

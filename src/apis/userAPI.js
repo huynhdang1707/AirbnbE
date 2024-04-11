@@ -1,5 +1,5 @@
 import axios from "axios";
-import axiosClient from "./AxiosClient";
+import axiosClient from "./axiosClient.js";
 
 export const apiSignIn = async (value) => {
   const { data } = await axiosClient.post("/auth/signin", value);

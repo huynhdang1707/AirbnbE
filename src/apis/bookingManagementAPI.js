@@ -1,4 +1,4 @@
-import axiosClient from "./AxiosClient";
+import axiosClient from "./axiosClient";
 
 //Lấy danh sách Booking
 export const apiGetBookingList = async () => {

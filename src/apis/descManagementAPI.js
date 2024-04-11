@@ -1,4 +1,4 @@
-import axiosClient from "./AxiosClient";
+import axiosClient from "./axiosClient.js";
 
 //Lấy danh sách vị trí theo trang
 export const apiGetDescListPage = async (value) => {

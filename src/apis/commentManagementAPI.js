@@ -1,4 +1,4 @@
-import axiosClient from "./AxiosClient";
+import axiosClient from "./axiosClient.js";
 
 //Lấy danh sách comment
 export const apiGetCommentList = async () => {
