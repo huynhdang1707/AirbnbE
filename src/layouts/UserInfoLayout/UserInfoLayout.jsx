@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
-import UserInfo from "../../modules/UserInfo/UserInfo";
+import UserInfo from "../../layouts/UserInfoLayout/UserInfoLayout";
 import Button from "react-bootstrap/Button";
 import "./UserInfoLayout.scss";
 

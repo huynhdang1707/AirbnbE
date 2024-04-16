@@ -6,7 +6,7 @@ import AdminRouter from "./routes/AdminRouter";
 import AdminLayout from "./layouts/AdminLayout/AdminLayout";
 import UserLayout from "./layouts/UserLayout/UserLayout";
 const AuthLayout = lazy(() => import("./layouts/AuthLayout/AuthLayout.jsx"));
-const SignIn = lazy(() => import("./module/Admin/Auth/Signin/Signin.jsx"));
+const SignIn = lazy(() => import("./module/Admin/Auth/Signin/SignIn.jsx"));
 const SignUp = lazy(() => import("./module/Admin/Auth/Signup/Signup.jsx"));
 const Home = lazy(() => import("./module/Admin/Auth/Home/Home.jsx"));
 const AirDetails = lazy(() =>
@@ -44,10 +44,10 @@ const BookingLayout = lazy(() =>
   import("./layouts/BookingLayout/BookingLayout.jsx")
 );
 const UserBookingList = lazy(() =>
-  import("./module/Admin/Auth/User/UserBookingList")
+  import("./module/Admin/Auth/User/UserBookingList/UserBookingList.jsx")
 );
 const UserCommentList = lazy(() =>
-  import("./module/Admin/Auth/User/UserCommentList")
+  import("./module/Admin/Auth/User/UserCommentList/UserCommentList.jsx")
 );
 
 function App() {

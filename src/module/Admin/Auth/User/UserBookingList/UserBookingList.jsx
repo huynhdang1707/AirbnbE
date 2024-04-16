@@ -1,11 +1,11 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Container } from "react-bootstrap";
-import { apiGetBookingListUserId } from "../../../apis/bookingManagementAPI";
-import { apiDeleteBooking } from "../../../apis/bookingManagementAPI";
+import { apiGetBookingListUserId } from "../../../../../apis/bookingManagementAPI";
+import { apiDeleteBooking } from "../../../../../apis/bookingManagementAPI";
 import BookingForm from "../../BookingForm/BookingForm";
 import swal from "sweetalert";
-import { bookingUpdated } from "../../../slices/updateBookingSlice";
+import { bookingUpdated } from "../../../../../slices/updateBookingSlice";
 import "./UserBookingList.scss";
 
 function UserBookingList() {

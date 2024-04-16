@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { signout } from "../../../slices/userSlice";
+import { signout } from "../../../../../slices/userSlice";
 import swal from "sweetalert";
-import { removeUser } from "../../../slices/signUpSlice";
+import { removeUser } from "../../../../../slices/signUpSlice";
 import { Nav, Navbar } from "react-bootstrap";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Container } from "react-bootstrap";

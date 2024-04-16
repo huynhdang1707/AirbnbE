@@ -5,10 +5,10 @@ import Modal from "react-bootstrap/Modal";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
-import { userUpdated, updateUser } from "../../slices/updateUserSlice";
+import { userUpdated, updateUser } from "../../../../../slices/updateUserSlice";
 import swal from "sweetalert";
-import style from "./UserForm.module.scss";
-import UploadImage from "../UploadImgage/UploadImage";
+import style from "./UserForm.scss";
+import UploadImage from "../../UploadImgage/UploadImage.jsx";
 
 const schema = yup.object({
   email: yup

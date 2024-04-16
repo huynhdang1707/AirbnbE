@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Outlet } from "react-router-dom";
-import AdminHeader from "../../modules/Admin/AdminHeader/AdminHeader";
-import UserSidebar from "../../modules/User/UserSideBar/UserSidebar";
+import AdminHeader from "../../layouts/UserLayout/UserLayout";
+import UserSidebar from "../../module/Admin/Auth/User/UserSideBar/UserSideBar ";
 
 function UserLayout() {
   return (

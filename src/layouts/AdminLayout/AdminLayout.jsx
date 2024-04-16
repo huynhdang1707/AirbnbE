@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import AdminSidebar from "../../modules/Admin/AdminSidebar/AdminSidebar";
+import AdminSidebar from "../../module/Admin/AdminSidebar/AdminSidebar";
 import { Outlet } from "react-router-dom";
-import AdminHeader from "../../modules/Admin/AdminHeader/AdminHeader";
+import AdminHeader from "../../module/Admin/AdminHeader/AdminHeader";
 import "./AdminLayout.scss";
 
 function AdminLayout() {

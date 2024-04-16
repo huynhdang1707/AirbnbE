@@ -1,17 +1,17 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Comment.scss";
-import { apiGetCommentListRoomId } from "../../../apis/commentManagementAPI";
+import { apiGetCommentListRoomId } from "../../../../apis/commentManagementAPI";
 import { useDispatch, useSelector } from "react-redux";
-import { commentUpdated } from "../../../slices/updateCommentSlice";
+import { commentUpdated } from "../../../../slices/updateCommentSlice";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useForm } from "react-hook-form";
-import { getCommentList } from "../../../slices/commentListSlice";
+import { getCommentList } from "../../../../slices/commentListSlice";
 import swal from "sweetalert";
-import { updateComment } from "../../../slices/updateCommentSlice";
-import { apiDeleteComment } from "../../../apis/commentManagementAPI";
-import { getInfoUser } from "../../../slices/infoUserSlice";
-import { signin } from "../../../slices/userSlice";
+import { updateComment } from "../../../../slices/updateCommentSlice";
+import { apiDeleteComment } from "../../../../apis/commentManagementAPI";
+import { getInfoUser } from "../../../../slices/infoUserSlice";
+import { signin } from "../../../../slices/userSlice";
 
 const schema = yup.object({
   noiDung: yup.string().required("(*)Nội dung không được để trống"),

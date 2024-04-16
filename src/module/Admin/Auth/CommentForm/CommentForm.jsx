@@ -6,7 +6,7 @@ import * as yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
 import style from "./CommentForm.module.scss";
 import swal from "sweetalert";
-import { commentUpdated, updateComment } from "../../slices/updateCommentSlice";
+import { commentUpdated, updateComment } from "../../../../slices/updateCommentSlice";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 

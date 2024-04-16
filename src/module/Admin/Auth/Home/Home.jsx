@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { apiPhongThue } from "../../apis/bnbApi";
-import { apiViTri } from "../../apis/bnbApi";
+import { apiPhongThue } from "../../../../apis/bnbApi";
+import { apiViTri } from "../../../../apis/bnbApi";
 import Card from "react-bootstrap/Card";
 import ReactPaginate from "react-paginate";
 import { Container, Row, Col } from "react-bootstrap";

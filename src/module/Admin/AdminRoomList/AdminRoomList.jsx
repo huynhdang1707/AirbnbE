@@ -8,7 +8,7 @@ import swal from "sweetalert";
 import { getRoomListPage } from "../../../slices/roomListPage";
 import { apiDeleteRoom } from "../../../apis/roomManagementAPI";
 import { roomUpdated } from "../../../slices/updateRoomSlice";
-import RoomForm from "../../RoomForm/RoomForm";
+import RoomForm from "../Auth/RoomForm/RoomForm.jsx";
 
 function AdminRoomList() {
   const navigate = useNavigate();

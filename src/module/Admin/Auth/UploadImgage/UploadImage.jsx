@@ -5,10 +5,10 @@ import Modal from "react-bootstrap/Modal";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
-import style from "./UploadImage.module.scss";
-import { apiUploadRoomImg } from "../../apis/roomManagementAPI";
-import { apiUploadDescImg } from "../../apis/descManagementAPI";
-import { apiUploadAva } from "../../apis/userManagementAPI";
+import style from "./UploadImage.scss";
+import { apiUploadRoomImg } from "../../../../apis/roomManagementAPI";
+import { apiUploadDescImg } from "../../../../apis/descManagementAPI";
+import { apiUploadAva } from "../../../../apis/userManagementAPI";
 import swal from "sweetalert";
 const schema = yup.object({
   hinhAnh: yup

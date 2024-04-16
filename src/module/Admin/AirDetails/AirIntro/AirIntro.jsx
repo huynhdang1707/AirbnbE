@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { apiPhongID } from "../../../apis/bnbApi";
-import { apiViTri } from "../../../apis/bnbApi";
+import { apiPhongID } from "../../../../apis/bnbApi";
+import { apiViTri } from "../../../../apis/bnbApi";
 import "./AirIntro.scss";
 
 function AirIntro({ id }) {

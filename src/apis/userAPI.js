@@ -1,4 +1,4 @@
-import axios from "axios";
+import { Axios } from "axios";
 import axiosClient from "./axiosClient.js";
 
 export const apiSignIn = async (value) => {

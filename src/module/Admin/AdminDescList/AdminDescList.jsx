@@ -7,7 +7,7 @@ import swal from "sweetalert";
 import { getDescListPage } from "../../../slices/descListPageSlice";
 import { apiDeleteDesc } from "../../../apis/descManagementAPI";
 import { descUpdated } from "../../../slices/updateDescSlice";
-import DescForm from "../../DescForm/DescForm";
+import DescForm from "../Auth/DescForm/DescForm.jsx";
 import "./AdminDescList.scss";
 
 function AdminDescList() {

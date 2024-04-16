@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { apiPhongID } from "../../../apis/bnbApi";
+import { apiPhongID } from "../../../../apis/bnbApi";
 import Calendar from "react-calendar";
 import LinesEllipsis from "react-lines-ellipsis";
 import "react-calendar/dist/Calendar.css";
 import { useNavigate } from "react-router-dom";
-import { createBooking } from "../../../slices/userCreateBooking";
+import { createBooking } from "../../../../slices/userCreateBooking";
 import { useDispatch } from "react-redux";
 import { differenceInDays } from 'date-fns';
 

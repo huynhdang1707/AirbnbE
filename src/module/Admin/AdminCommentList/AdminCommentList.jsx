@@ -6,7 +6,7 @@ import { apiDeleteComment } from "../../../apis/commentManagementAPI";
 import { getCommentList } from "../../../slices/commentListSlice";
 import { commentUpdated } from "../../../slices/updateCommentSlice";
 import "./AdminCommentList.scss";
-import CommentForm from "../../CommentForm/CommentForm";
+import CommentForm from "../Auth/CommentForm/CommentForm.jsx";
 import { apiGetCommentListRoomId } from "../../../apis/commentManagementAPI";
 
 function AdminCommentList() {

@@ -4,7 +4,7 @@ import "./SignIn.scss";
 import { useNavigate, useSearchParams, useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { useForm } from "react-hook-form";
-import { signin } from "../../../slices/userSlice";
+import { signin } from "../../../../slices/userSlice";
 import swal from "sweetalert";
 
 function Signin() {

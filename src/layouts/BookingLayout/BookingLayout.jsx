@@ -1,6 +1,6 @@
 import React from "react";
-import "./BookingLayout.scss";
-import UserBooking from "../../modules/User/UserBooking/UserBooking";
+// import ".";
+import UserBooking from "../../module/Admin/Auth/User/UserBooking/UserBooking";
 
 function BookingLayout() {
   return (

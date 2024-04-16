@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Container } from "react-bootstrap";
-import { getCommentList } from "../../../slices/commentListSlice";
+import { getCommentList } from "../../../../../slices/commentListSlice";
 import "./UserCommentList.scss";
 import swal from "sweetalert";
 import { Navigate, useNavigate } from "react-router-dom";

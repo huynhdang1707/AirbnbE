@@ -10,7 +10,7 @@ import swal from "sweetalert";
 import { getUserListPage } from "../../../slices/userListPageSlice";
 import { apiDeleteUser } from "../../../apis/userManagementAPI";
 import { userUpdated } from "../../../slices/updateUserSlice";
-import UserForm from "../../UserForm/UserForm";
+import UserForm from "../Auth/User/UserForm/UserForm";
 
 function AdminUserList() {
   const navigate = useNavigate();

@@ -2,13 +2,13 @@ import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import Modal from "react-bootstrap/Modal";
-import { yupResolver } from "@hookform/resolvers/yup";
+import { yupResolver } from "@hookform/resolvers/yup";  
 import * as yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
 import swal from "sweetalert";
-import { roomUpdated, updateRoom } from "../../slices/updateRoomSlice";
-import style from "./RoomForm.module.scss";
-import UploadImage from "../UploadImgage/UploadImage";
+import { roomUpdated, updateRoom } from "../../../../slices/updateRoomSlice";
+import style from "./RoomForm.scss";
+import UploadImage from "../UploadImgage/UploadImage.jsx";
 
 const schema = yup.object().shape({
   tenPhong: yup.string().required("(*)Tên phòng không được để trống"),

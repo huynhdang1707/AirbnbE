@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { apiBinhLuan, apiPhongID } from "../../../apis/bnbApi";
+import { apiBinhLuan, apiPhongID } from "../../../../apis/bnbApi";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
 import { useSelector, useDispatch } from "react-redux";
-import { getInfoUser } from "../../../slices/infoUserSlice";
+import { getInfoUser } from "../../../../slices/infoUserSlice";
 import "./AirComment.scss";
 import Comment from "../Comment/Comment";
-import { apiGetCommentListRoomId } from "../../../apis/commentManagementAPI";
+import { apiGetCommentListRoomId } from "../../../../apis/bnbApi";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import { userCreateComment } from "../../../slices/userCreateComment";
+import { userCreateComment } from "../../../../slices/userCreateComment";
 import swal from "sweetalert";
 import { useLocation, useNavigate } from "react-router-dom";
 

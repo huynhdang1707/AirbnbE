@@ -6,7 +6,7 @@ import swal from "sweetalert";
 import { Container,Button } from "react-bootstrap";
 import { useNavigate } from "react-router";
 import { useDispatch, useSelector } from "react-redux";
-import { userCreateBooking } from "../../../slices/userCreateBooking";
+import { userCreateBooking } from "../../../../../slices/userCreateBooking";
 import "./UserBooking.scss";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
