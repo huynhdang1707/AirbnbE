@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Outlet } from "react-router-dom";
 import AdminHeader from "../../layouts/UserLayout/UserLayout";
-import UserSidebar from "../../module/Admin/Auth/User/UserSideBar/UserSideBar ";
+import UserSidebar from "../../module/Admin/Auth/User/UserSideBar/UserSideBar.jsx";
 
 function UserLayout() {
   return (
