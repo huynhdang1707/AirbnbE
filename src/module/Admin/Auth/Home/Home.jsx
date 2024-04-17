@@ -88,7 +88,7 @@ function Home() {
   };
   
 
-  const filteredPhongThue = phongThue.filter((item) => {
+  const filteredPhongThue = phongThue?.filter((item) => {
     const matchingViTri = viTri.find((viTriItem) => viTriItem.id === item.maViTri);
     return (
       (!selectedQuocGia || (matchingViTri && matchingViTri.quocGia && matchingViTri.quocGia.trim() === selectedQuocGia)) &&
@@ -97,17 +97,17 @@ function Home() {
     );
   });
 
-  const pageCount = Math.ceil(filteredPhongThue.length / itemsPerPage);
+  const pageCount = filteredPhongThue && filteredPhongThue.length ?  Math.ceil(filteredPhongThue?.length / itemsPerPage) : 0;
   const offset = currentPage * itemsPerPage;
-  const currentPageData = filteredPhongThue.slice(offset, offset + itemsPerPage);
+  const currentPageData = filteredPhongThue?.slice(offset, offset + itemsPerPage);
 
-  const uniqueQuocGia = Array.from(new Set(viTri.map((item) => item.quocGia.trim())));
-  const uniqueTinhThanh = Array.from(new Set(viTri.map((item) => item.tinhThanh.trim())));
-  const uniqueTenViTri = Array.from(new Set(viTri.map((item) => item.tenViTri.trim())));
+  const uniqueQuocGia = Array.from(new Set(viTri?.map((item) => item.quocGia.trim())));
+  const uniqueTinhThanh = Array.from(new Set(viTri?.map((item) => item.tinhThanh.trim())));
+  const uniqueTenViTri = Array.from(new Set(viTri?.map((item) => item.tenViTri.trim())));
 
 
   const displayData = currentPageData
-    .map((item, index) => {
+    ?.map((item, index) => {
       const matchingViTri = viTri.find((viTriItem) => viTriItem.id === item.maViTri);
 
       if (isLoading) {
